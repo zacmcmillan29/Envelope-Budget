@@ -27,7 +27,7 @@ urlpatterns = [
     path('budget/', views.budget, name='category_list'),
 
     # BOOKS
-    path('', views.book_list, name='book_list'),
+    path('book/', views.book_list, name='book_list'),
     path('createBook/', views.book_create, name='book_create'),
     path('updateBook/<int:pk>/', views.book_update, name='book_update'),
     path('deleteBook/<int:pk>/', views.book_confirm_delete, name='book_confirm_delete'),
