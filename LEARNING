@@ -1,0 +1,15 @@
+--- need to add your app to installed apps in settings ---
+
+--- only 1 urls.py needed (put inside my project - more for settings) ---
+
+--- need to make migrations = 2 separate codes ---
+python manage.py makemigrations
+python manage.py migrate
+
+HOW TO CREATE MIGRATION
+python manage.py makemigrations --empty budget
+
+
+TO FIX
+--- HMMMM python dynamic build not working ---
+--- CSS not working ---

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+        <!-- Form to add budget object -->
+    <h2>Add Budget Object</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Save</button>
+    </form>
+</html>
+
+

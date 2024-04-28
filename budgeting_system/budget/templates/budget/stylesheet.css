@@ -1,0 +1,12 @@
+.space {
+    width:10px !important;
+    border-top:none !important;
+    padding-right: 1000px;
+    border-spacing: 10px;
+    font-style: italic;
+    }
+
+    .orange-text { 
+        color: orange; 
+        font-weight: bold; 
+        } 
